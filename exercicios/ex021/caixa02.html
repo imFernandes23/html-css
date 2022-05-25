@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+</head>
+<style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: grey;
+    }
+    header{
+        background-color: white;
+        padding: 10px;
+    }
+    nav{
+        background-color: rgb(80, 80, 80);
+        padding: 5px;
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.452);
+    }
+    nav > a{
+        text-decoration: none;
+        color: white;
+        margin-right: 20px;
+    }
+    nav > a:hover{
+        text-decoration: underline;
+    }
+
+    main{
+        background-color: white;
+        padding: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border-radius: 15px 0px 15px 15px;
+    }
+
+    section{
+        background-color: rgb(199, 199, 199);
+        padding: 10px;
+        margin-top: 10px;
+        border-radius: 10px 0px 10px 10px;
+        box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.425);
+    }
+
+    footer{
+        background-color: black;
+        color: white;
+        text-align: center;
+        margin-right: -10px;
+        margin-left: -10px;
+        font-style: italic;
+        padding: 2px;
+
+    }
+    footer > p {
+        margin: 0;
+    }
+</style>
+<body>
+    <header>
+        <h1>Título do Síte</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="Assuntos">
+            <p>Esportes Política Tecnologia</p>
+        </section>
+        <section>
+            <article>
+                <h2>Notícia</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum, quam pariatur quasi repellendus, sequi, amet animi qui a consectetur quas dolorem reiciendis enim dignissimos eveniet necessitatibus eius consequuntur beatae ut?</p>
+
+                <aside>
+                    <p>Artigo feito por Fulano</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por alguém.</p>
+    </footer>
+</body>
+</html>
